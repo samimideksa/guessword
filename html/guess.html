@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess Game</title>
+	 <meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../js/script.js"></script>
+</head>
+	<body>
+		<h4>Word Guessing Game</h4>
+		<div class="main">
+			<form name="Form1" id="main">
+				Enter Player Name
+				<input type="text" name="pname" placeholder =""><br><br>
+				<div id="Deposit">
+					Deposit: <input type="text" name="dep">
+				</div><br>
+		  		<input id="button" type="submit" value="submit" onclick="return displayMenu()">
+			</form>
+			<p id="firstMenu">
+			</p><hr />
+			<form name="Form2" onsubmit="return Guess()" style="background-color: #f5f5f5">
+			</form>
+		</div>
+	</body>
+<!--comment-->
+</html>
